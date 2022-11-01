@@ -1228,11 +1228,11 @@ ol {
 }
 
 .product__hover li:hover a {
-	background: #ca1515;
+	background: #b4db20;
 }
 
 .product__hover li:hover a span {
-	color: #ffffff;
+	color: #000000;
 	-webkit-transform: rotate(360deg);
 	-ms-transform: rotate(360deg);
 	transform: rotate(360deg);
