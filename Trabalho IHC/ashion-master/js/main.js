@@ -234,8 +234,3 @@ Created: Colorib
 
 })(jQuery);
 
-var ins= document.getElementById('insc')
-addEventListener('onclick' )
-function(){
-    
-}
