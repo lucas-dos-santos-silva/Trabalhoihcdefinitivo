@@ -110,6 +110,17 @@ ol {
   Helper CSS
 -----------------------*/
 
+::-webkit-scrollbar-track {
+    background-color: #fffefe00;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #9b9b9b;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
 .section-title {
 	margin-bottom: 45px;
 }
@@ -747,7 +758,7 @@ ol {
 -----------------------*/
 
 .services {
-	padding-top: 50px;
+	padding-top: 73px;
 	padding-bottom: 50px;
 }
 
@@ -858,6 +869,7 @@ ol {
 
 .footer__logo {
 	margin-bottom: 20px;
+	margin-right: 25px;
 }
 
 .footer__payment a {
