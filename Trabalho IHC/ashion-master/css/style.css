@@ -139,7 +139,7 @@ ol {
 	bottom: -4px;
 	height: 2px;
 	width: 70px;
-	background: #b4db20;
+	background: #92de25;
 	content: "";
 }
 
@@ -182,7 +182,7 @@ ol {
 .site-btn {
 	font-size: 14px;
 	color: #ffffff;
-	background: #ca1515;
+	background: #92de25;
 	font-weight: 600;
 	border: none;
 	text-transform: uppercase;
@@ -220,19 +220,19 @@ ol {
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid #152203;
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
-		border: 4px solid #673ab7;
+		border: 4px solid #243c02;
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid #447201;
 		border-left-color: transparent;
 	}
 }
@@ -426,7 +426,7 @@ ol {
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: #b4db20;
+	background: #92de25;
 	content: "";
 	-webkit-transition: all, 0.5s;
 	-o-transition: all, 0.5s;
@@ -770,7 +770,7 @@ ol {
 
 .services__item i {
 	font-size: 36px;
-	color: #b4db20;
+	color: #92de25;
 	position: absolute;
 	left: 0;
 	top: 4px;
@@ -1240,7 +1240,7 @@ ol {
 }
 
 .product__hover li:hover a {
-	background: #b4db20;
+	background: #92de25;
 }
 
 .product__hover li:hover a span {
