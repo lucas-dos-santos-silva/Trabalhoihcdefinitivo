@@ -278,3 +278,6 @@ function conteudo(){
     function botao(){
         alert('Produto indisponivel!')
     }
+    function enviar(){
+        alert('Formulario enviado com sucesso!')
+    }
