@@ -263,3 +263,14 @@ function conteudo(){
         }
         
     }
+
+    function cupom(){
+            let txt = document.getElementById('texto')
+            txt = String(txt.value)
+            console.log(txt)
+            document.getElementById('res')
+            res.innerHTML = 'Cupom adicionado com sucesso!'
+
+            
+        
+    }

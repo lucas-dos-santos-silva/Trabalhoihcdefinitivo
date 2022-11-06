@@ -7,7 +7,7 @@
     <meta name="keywords" content="Ashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ashion | Template</title>
+    <title>Kanuti</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico/icone.ico">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
@@ -134,7 +134,7 @@
                                     <td class="cart__product__item">
                                         <img src="img/shop-cart/cp-1.jpg" alt="">
                                         <div class="cart__product__item__title">
-                                            <h6>Chain bucket bag</h6>
+                                            <h6>ESSENTIAL STRUCTURED BLAZER</h6>
                                             <div class="rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -144,84 +144,16 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td class="cart__price">R$ 150.0</td>
+                                    <td class="cart__price">R$ 75.0</td>
                                     <td class="cart__quantity">
                                         <div class="pro-qty">
                                             <input type="text" value="1">
                                         </div>
                                     </td>
-                                    <td class="cart__total">R$ 300.0</td>
+                                    <td class="cart__total">R$ 75.00</td>
                                     <td class="cart__close"><span class="icon_close"></span></td>
                                 </tr>
-                                <tr>
-                                    <td class="cart__product__item">
-                                        <img src="img/shop-cart/cp-2.jpg" alt="">
-                                        <div class="cart__product__item__title">
-                                            <h6>Zip-pockets pebbled tote briefcase</h6>
-                                            <div class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="cart__price">R$ 170.0</td>
-                                    <td class="cart__quantity">
-                                        <div class="pro-qty">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </td>
-                                    <td class="cart__total">R$ 170.0</td>
-                                    <td class="cart__close"><span class="icon_close"></span></td>
-                                </tr>
-                                <tr>
-                                    <td class="cart__product__item">
-                                        <img src="img/shop-cart/cp-3.jpg" alt="">
-                                        <div class="cart__product__item__title">
-                                            <h6>Black jean</h6>
-                                            <div class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="cart__price">R$ 85.0</td>
-                                    <td class="cart__quantity">
-                                        <div class="pro-qty">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </td>
-                                    <td class="cart__total">R$ 170.0</td>
-                                    <td class="cart__close"><span class="icon_close"></span></td>
-                                </tr>
-                                <tr>
-                                    <td class="cart__product__item">
-                                        <img src="img/shop-cart/cp-4.jpg" alt="">
-                                        <div class="cart__product__item__title">
-                                            <h6>Cotton Shirt</h6>
-                                            <div class="rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="cart__price">R$ 55.0</td>
-                                    <td class="cart__quantity">
-                                        <div class="pro-qty">
-                                            <input type="text" value="1">
-                                        </div>
-                                    </td>
-                                    <td class="cart__total">R$ 110.0</td>
-                                    <td class="cart__close"><span class="icon_close"></span></td>
-                                </tr>
+                                
                             </tbody>
                         </table>
                     </div>
@@ -244,17 +176,18 @@
                     <div class="discount__content">
                         <h6>cupom de desconto</h6>
                         <form action="#">
-                            <input type="text" placeholder="Insira o cupom">
-                            <button type="submit" class="site-btn">Aplicar</button>
+                            <input type="text" placeholder="Insira o cupom" id="texto">
+                            <button class="site-btn" onclick="cupom()">Aplicar</button>
                         </form>
+                        <br><div class="res" id="res"></div>
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-2">
                     <div class="cart__total__procced">
                         <h6>Total</h6>
                         <ul>
-                            <li>Subtotal <span>R$ 750.0</span></li>
-                            <li>Total <span>R$ 750.0</span></li>
+                            <li>Subtotal <span>R$ 75.0</span></li>
+                            <li>Total <span>R$ 75.0</span></li>
                         </ul>
                         <a href="./checkout.html" class="primary-btn">Realizar pagamento</a>
                     </div>
