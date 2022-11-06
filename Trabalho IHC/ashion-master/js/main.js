@@ -265,12 +265,16 @@ function conteudo(){
     }
 
     function cupom(){
-            let txt = document.getElementById('texto')
-            txt = String(txt.value)
-            console.log(txt)
-            document.getElementById('res')
-            res.innerHTML = 'Cupom adicionado com sucesso!'
-
+            var txt = String(document.getElementById('texto').value)
+            var resultado = document.getElementById('res')
+            if(txt == 'GILDO10'){
+            resultado.innerText = 'Cupom adicionado com sucesso!'
+            }else{
+                resultado.innerText = 'Cupom invalido'
+            }
             
         
+    }
+    function botao(){
+        alert('Produto indisponivel!')
     }
