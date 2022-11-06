@@ -857,6 +857,7 @@ ol {
 
 .footer {
 	padding-top: 55px;
+	
 }
 
 .footer__about {
@@ -876,14 +877,17 @@ ol {
 	margin-right: 6px;
 	margin-bottom: 10px;
 	display: inline-block;
+	
 }
 
 .footer__payment a:last-child {
 	margin-right: 0;
+	
 }
 
 .footer__widget {
 	margin-bottom: 30px;
+	
 }
 
 .footer__widget h6 {
@@ -967,6 +971,7 @@ ol {
 	border-radius: 50%;
 	margin-right: 6px;
 	margin-bottom: 5px;
+	
 }
 
 .footer__social a:last-child {
@@ -1916,6 +1921,7 @@ ol {
 	cursor: pointer;
 	position: relative;
 	margin-right: 20px;
+	
 }
 
 .product__details__widget ul li .color__checkbox label.active input~.checkmark:after {
@@ -2266,6 +2272,8 @@ ol {
 .cart__total__procced {
 	background: #f5f5f5;
 	padding: 40px;
+	
+	
 }
 
 .cart__total__procced h6 {
@@ -2277,6 +2285,7 @@ ol {
 
 .cart__total__procced ul {
 	margin-bottom: 25px;
+	
 }
 
 .cart__total__procced ul li {
@@ -2286,11 +2295,13 @@ ol {
 	font-weight: 600;
 	overflow: hidden;
 	line-height: 40px;
+	
 }
 
 .cart__total__procced ul li span {
 	color: #ca1515;
 	float: right;
+	
 }
 
 .cart__total__procced .primary-btn {
@@ -2298,6 +2309,7 @@ ol {
 	border-radius: 50px;
 	text-align: center;
 	padding: 12px 0 10px;
+	
 }
 
 /*---------------------
@@ -2314,7 +2326,7 @@ ol {
 	color: #444444;
 	padding: 14px 0;
 	background: #f5f5f5;
-	border-top: 2px solid #ca1515;
+	border-top: 2px solid #92de25;
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -2326,7 +2338,7 @@ ol {
 
 .coupon__link span {
 	font-size: 14px;
-	color: #ca1515;
+	color: #92de25;
 }
 
 .checkout__form h5 {

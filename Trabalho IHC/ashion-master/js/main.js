@@ -234,12 +234,32 @@ Created: Colorib
 
 })(jQuery);
 
-let inscrever = document.getElementById('insc')
-let res = String(inscrever.value)
+function conteudo(){
+    
+    let inscrever = document.getElementById('insc');
+    let res = String(inscrever.value);
+    
+    //digitos corretos
+    if(res.length == 0 || res.length < 0){
+        alert('Digite novamente!')}
+    else{
+        //validacao email
+        function validateEmail(res) {
+            var re = /\S+@\S+\.\S+/;
+            return re.test(res);
+        }
+    
+            if(validateEmail(res) == true){
+                alert('Email enviado com Sucesso!')
+            }else{
+                alert('Digite um email valido!')
+            }
+        }
+    }
 
-console.log(inscrever)
-addEventListener('onclick', popup);
-
-function popup(){
-alert('Email recebido com sucesso!');
-};
+    function confirmar(){
+        if(confirm('Compra realizada com sucesso!')){
+            window.location="https://www.facebook.com/";
+        }
+        
+    }
