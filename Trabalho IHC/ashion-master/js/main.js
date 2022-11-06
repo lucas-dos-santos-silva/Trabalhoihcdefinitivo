@@ -234,3 +234,12 @@ Created: Colorib
 
 })(jQuery);
 
+let inscrever = document.getElementById('insc')
+let res = String(inscrever.value)
+
+console.log(inscrever)
+addEventListener('onclick', popup);
+
+function popup(){
+alert('Email recebido com sucesso!');
+};
