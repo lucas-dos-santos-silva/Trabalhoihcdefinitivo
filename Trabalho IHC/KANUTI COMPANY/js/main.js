@@ -266,9 +266,12 @@ function conteudo(){
 
     function cupom(){
             var txt = String(document.getElementById('texto').value)
-            var resultado = document.getElementById('res')
+            var resultado = String(document.getElementById('res').value)
+            
             if(txt == 'GILDO10'){
             resultado.innerText = 'Cupom adicionado com sucesso!'
+            
+            
             }else{
                 resultado.innerText = 'Cupom invalido'
             }
