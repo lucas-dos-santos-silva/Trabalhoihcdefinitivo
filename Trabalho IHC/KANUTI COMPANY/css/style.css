@@ -895,10 +895,12 @@ ol {
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 12px;
+	
 }
 
 .footer__widget ul li {
 	list-style: none;
+	
 }
 
 .footer__widget ul li a {
@@ -3183,7 +3185,10 @@ ol {
 
 @media only screen and (min-width: 1200px) {
 	.container {
-		max-width: 1170px;
+		max-width: 1800px;
+		
+
+		
 	}
 }
 

@@ -279,5 +279,43 @@ function conteudo(){
         alert('Produto indisponivel!')
     }
     function enviar(){
-        alert('Formulario enviado com sucesso!')
+        //nome
+        var n1 = document.getElementById('nome')
+        var nom1= String(n1.value)
+        
+        if(nom1.length == 0 || nom1.length < 0){
+            alert('Digite o nome novamente!')}
+        else{
+            
+        //email
+        var n = document.getElementById('email')
+        var nom = String(n.value)
+
+        if(nom.length == 0 || nom.length < 0){
+            alert('Digite o email novamente!')
+        }
+
+       else{
+            //validacao email
+            function validateEmail(nom) {
+                    var re = /\S+@\S+\.\S+/;
+                    return re.test(nom);
+                }if(validateEmail(nom) == true){
+
+                    var cu= String(document.getElementById('curriculo').value)
+                    if(cu.length == 0 || cu.length < 0){
+                        alert('Digite o curriculo novamente!')
+                        }else{
+                        var et= String(document.getElementById('etc').value)
+                            if(et.length == 0 || et.length < 0){
+                            alert('prencha todos os campos')
+                            }else{
+                            alert('deu certo')}
+
+                    }
+            
+                }else{alert('email invalido')}
+    
+        }
     }
+}
